@@ -1,0 +1,32 @@
+:root{
+    --spacing: 10px;
+    --base: #ffc600;
+    --blur: 50px;
+
+}
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+body{
+    text-align: center;
+}
+
+body{
+    background: linear-gradient(45deg, rgb(56, 54, 54), rgb(0, 0, 58));
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+}
+.input-box{
+    text-align: center;
+    margin: 20px;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.hl{
+    color: var(--base);
+}
